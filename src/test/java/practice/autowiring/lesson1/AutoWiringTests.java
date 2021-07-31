@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 public class AutoWiringTests {
 
     @Autowired
-    private NameGeneratorImpl nameGenerator;
+    NameGeneratorImpl nameGenerator;
 
     @Test
     public void testDemo() {

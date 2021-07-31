@@ -13,7 +13,7 @@ public class AutoWiringTests {
 
     @Autowired
     @Qualifier("one")
-    private NameGeneratorImpl nameGenerator;
+    NameGeneratorImpl nameGenerator;
 
     @Test
     public void testDemo() {
